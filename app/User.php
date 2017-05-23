@@ -14,6 +14,7 @@ class User extends Authenticatable
      *
      * @var array
      */
+    // update model
     protected $fillable = [
         'name', 'email', 'password',
     ];
